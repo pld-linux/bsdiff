@@ -1,7 +1,7 @@
 Summary:	Binary diff/patch utility
 Name:		bsdiff
 Version:	4.3
-Release:	1%{?dist}
+Release:	1
 License:	BSD
 Group:		Development/Tools
 Source0:	http://www.daemonology.net/bsdiff/%{name}-%{version}.tar.gz
@@ -27,9 +27,9 @@ those produced by Xdelta, and 15% smaller than those produced by
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d ${RPM_BUILD_ROOT}{%{_bindir},%{_mandir}/man1}
-install bsdiff bspatch ${RPM_BUILD_ROOT}%{_bindir}
-install bsdiff.1 bspatch.1 ${RPM_BUILD_ROOT}%{_mandir}/man1
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
+install bsdiff bspatch $RPM_BUILD_ROOT%{_bindir}
+install bsdiff.1 bspatch.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
 %clean
 rm -rf ${RPM_BUILD_ROOT}
