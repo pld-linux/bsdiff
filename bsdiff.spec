@@ -1,4 +1,5 @@
-Summary:	Binary diff/patch utility
+Summary:	Binary diff/patch utilities
+Summary(pl):	Narzêdzia diff/patch dla plików binarnych
 Name:		bsdiff
 Version:	4.3
 Release:	1
@@ -18,6 +19,14 @@ change, bsdiff routinely produces binary patches 50-80% smaller than
 those produced by Xdelta, and 15% smaller than those produced by
 .RTPatch.
 
+%description
+bsdiff i bspatch to narzêdzia do tworzenia i aplikowania ³at dla
+plików binarnych. Dziêki u¿yciu sortowania przyrostkowego (w
+szczególno¶ci qsufsort Larssona i Sadakane'a) i uwzglêdnieniu sposobu,
+w jaki zmieniaj± siê pliki wykonywalne, bsdiff zwykle tworzy ³aty
+binarne 50-80%% mniejsze ni¿ tworzone przez program Xdelta i 15%%
+mniejsze ni¿ tworzone przez .RTPatch.
+
 %prep
 %setup -q
 
@@ -32,7 +41,7 @@ install bsdiff bspatch $RPM_BUILD_ROOT%{_bindir}
 install bsdiff.1 bspatch.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
 %clean
-rm -rf ${RPM_BUILD_ROOT}
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
