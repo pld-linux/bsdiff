@@ -19,7 +19,7 @@ change, bsdiff routinely produces binary patches 50-80% smaller than
 those produced by Xdelta, and 15% smaller than those produced by
 .RTPatch.
 
-%description
+%description -l pl
 bsdiff i bspatch to narzêdzia do tworzenia i aplikowania ³at dla
 plików binarnych. Dziêki u¿yciu sortowania przyrostkowego (w
 szczególno¶ci qsufsort Larssona i Sadakane'a) i uwzglêdnieniu sposobu,
