@@ -1,5 +1,5 @@
 Summary:	Binary diff/patch utilities
-Summary(pl):	Narzêdzia diff/patch dla plików binarnych
+Summary(pl.UTF-8):   NarzÄ™dzia diff/patch dla plikÃ³w binarnych
 Name:		bsdiff
 Version:	4.3
 Release:	1
@@ -19,13 +19,13 @@ change, bsdiff routinely produces binary patches 50-80% smaller than
 those produced by Xdelta, and 15% smaller than those produced by
 .RTPatch.
 
-%description -l pl
-bsdiff i bspatch to narzêdzia do tworzenia i aplikowania ³at dla
-plików binarnych. Dziêki u¿yciu sortowania przyrostkowego (w
-szczególno¶ci qsufsort Larssona i Sadakane'a) i uwzglêdnieniu sposobu,
-w jaki zmieniaj± siê pliki wykonywalne, bsdiff zwykle tworzy ³aty
-binarne 50-80%% mniejsze ni¿ tworzone przez program Xdelta i 15%%
-mniejsze ni¿ tworzone przez .RTPatch.
+%description -l pl.UTF-8
+bsdiff i bspatch to narzÄ™dzia do tworzenia i aplikowania Å‚at dla
+plikÃ³w binarnych. DziÄ™ki uÅ¼yciu sortowania przyrostkowego (w
+szczegÃ³lnoÅ›ci qsufsort Larssona i Sadakane'a) i uwzglÄ™dnieniu sposobu,
+w jaki zmieniajÄ… siÄ™ pliki wykonywalne, bsdiff zwykle tworzy Å‚aty
+binarne 50-80%% mniejsze niÅ¼ tworzone przez program Xdelta i 15%%
+mniejsze niÅ¼ tworzone przez .RTPatch.
 
 %prep
 %setup -q
