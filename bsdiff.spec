@@ -1,5 +1,5 @@
 Summary:	Binary diff/patch utilities
-Summary(pl.UTF-8):   Narzędzia diff/patch dla plików binarnych
+Summary(pl.UTF-8):	Narzędzia diff/patch dla plików binarnych
 Name:		bsdiff
 Version:	4.3
 Release:	1
